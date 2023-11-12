@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  /* height: 100vh; */
+  color: white;
+}
+button {
+  cursor: pointer;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+.logo {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 24px;
+  color: #f9faf8;
+}
+.list {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.list li {
+  color: white;
+  cursor: pointer;
+}
+.hero {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start;
+  justify-content: center;
+}
+.left h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+.left p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.signup {
+  color: #f9faf8;
+  border: none;
+  padding: 8px;
+  background-color: rgb(60, 60, 214);
+  border-radius: 8px;
+}
+.right {
+  flex: 1;
+  padding: 20px;
+}
+.image {
+  height: 300px;
+  border-radius: 8px;
+}
+/* The second section styling */
+.random {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.random h3 {
+  font-size: 36px;
+  color: #1f2937;
+}
+.random-boxes {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  /* background-color: yellow; */
+}
+.box {
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  align-items: center;
+}
+.container {
+  border: 2px solid #3882f6;
+  height: 150px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.box p {
+  padding-top: 10px;
+  text-align: center;
+}
+.testimonial {
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+}
+.message {
+  font-size: 36px;
+  font-style: italic;
+  text-align: center;
+}
+.name {
+  font-size: 35px;
+  justify-content: end;
+  text-align: end;
+}
+.scall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.call {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  background-color: teal;
+  padding: 20px;
+  border-radius: 8px;
+}
+.rcall {
+  display: flex;
+  flex-direction: column;
+}
+.lcall {
+  align-items: end;
+}
+.btnsign {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  color: #fff;
+  background-color: #3498db;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btnsign:hover {
+  background-color: #2980b9;
+}
